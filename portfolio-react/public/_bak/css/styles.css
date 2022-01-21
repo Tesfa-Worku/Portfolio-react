@@ -1,0 +1,9 @@
+.border-dark {
+    border-color: #000000!important;
+}
+
+@media screen and (min-width: 780px) {
+    .text-columns {
+        column-count: 2
+    }
+}
