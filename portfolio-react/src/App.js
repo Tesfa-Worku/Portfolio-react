@@ -49,7 +49,10 @@ function App() {
 
         </div>
 
-        <Footer />
+        <Footer
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+        />
       </HashRouter>
     </div>
   );
