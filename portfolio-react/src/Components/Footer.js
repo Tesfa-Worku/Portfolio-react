@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 
-const Footer = () => {
+const Footer = ({ setCurrentPage }) => {
     return(
         <footer className="fixed-bottom d-flex flex-column flex-md-row align-items-center justify-content-evenly w-100 bg-dark text-center">
             <div className="text-light">
@@ -9,7 +10,7 @@ const Footer = () => {
                 (240) 705-4466
             </div>
             <div className="text-light">
-                <a href="contact.html"  className="btn btn-dark">hopegorg@gmail.com</a>
+                <Link to={"contact"}  className="btn btn-dark" onClick={() => setCurrentPage('Contact')}>hopegorg@gmail.com</Link>
             </div>
         </footer>
     )
