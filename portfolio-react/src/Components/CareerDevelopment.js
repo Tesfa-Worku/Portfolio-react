@@ -21,6 +21,13 @@ const CareerDevelopment = () => {
                 <li>HTML</li>
                 <li>Agile</li>
             </ul>
+
+            <h3>
+                Hyatt Regency – Bellevue, WA: 2018-2020
+            </h3>
+            <h4>
+                Maintenance Engineer 
+            </h4>
         </div>
     )
 }
